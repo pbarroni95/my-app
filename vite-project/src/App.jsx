@@ -1,25 +1,15 @@
-
-
-/*function App() {
-  return "Hola mundo jiji"
-}
-
-*/
+import NavBar from "./components/NavBar"
 
 const App = () => {
 
+  const nombre = "Paula"
+
   return (
     <>
-
-    <header id="header">
-    <h1> The Rocy Lozy Fit Club</h1>
-    <h2> memberships for fit & club people </h2>
-    <nav>
-
-    </nav>
-    </header>
+<NavBar/>
+   
     <main>
-    <p>Bienvenidx</p>
+    <p>Bienvenidx {nombre}!</p>
     </main>
     <footer>
    <p> all rights reserved - developed by Paula Barroni </p> 
